@@ -51,7 +51,7 @@
         ```
     - Your complete code should look like this:
         ```javascript
-        function greeting(name) {
+        const greeting = (name) => {
           return "Hello, " + name + "!";
         }
         
