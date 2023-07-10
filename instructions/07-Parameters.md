@@ -14,7 +14,7 @@
 2. **Create a function that takes parameters:**
     - In the newly created file, write a function that takes two string parameters and returns them concatenated with a space in between. For example:
         ```javascript
-        function concatenateStrings(string1, string2) {
+        const concatenateStrings = (string1, string2) => {
           return string1 + ' ' + string2;
         }
         ```

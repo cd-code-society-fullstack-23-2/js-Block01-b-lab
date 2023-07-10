@@ -18,7 +18,6 @@ In this lab, you will practice using conditional statements in JavaScript. You w
 
 **Create a JavaScript file:**
 
-   - Open Visual Studio Code.
    - Create a new file `src/examGrading.js`.
 
 **Create a function to determine the grade:**
@@ -28,7 +27,7 @@ In this lab, you will practice using conditional statements in JavaScript. You w
 - Return the corresponding grade based on the condition. For example:
    
  ```javascript
- function assignGrade(score) {
+ const assignGrade = (score) => {
    // TODO: Implement function
  }
  ```

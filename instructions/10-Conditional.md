@@ -15,8 +15,8 @@
     
 - In the newly created file, write a function that takes a number as a parameter and uses a conditional statement (`if`, `else if`, `else`) to check if the number is positive, negative, or zero. Return a corresponding message based on the condition. For example:
     
-```
-function checkNumber(number) {
+```javascript
+const checkNumber = (number) => {
 	// TODO: Implement function
 }
 ```
@@ -36,7 +36,7 @@ console.log(checkNumber(0));  // "The number is zero."
 - Create another function that takes a string as a parameter and uses a conditional statement to check if the string is empty or not. Return a corresponding message based on the condition. For example:
 
 ```javascript
-function checkString(string) {
+const checkString = (string) => {
   // TODO: Implement function
 }
 ```

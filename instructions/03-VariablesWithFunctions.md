@@ -14,7 +14,7 @@
 2. **Create a function that uses variables:**
     - In the newly created file, write a function that declares a variable, assigns a string value to it, and then returns that variable. For example:
         ```javascript
-        function getGreeting() {
+        const getGreeting = () =>{
           let greeting = "Hello, World!";
           return greeting;
         }
@@ -28,7 +28,7 @@
 3. **Experiment with different variable types:**
     - Create another function that declares a variable and assigns a number to it, and then returns the variable. For example:
         ```javascript
-        function getNumber() {
+        const getNumber = () => {
           let number = 5;
           return number;
         }
@@ -40,7 +40,7 @@
 4. **Challenge Goal:**
     - Now for the challenge. Write a function that takes in two parameters, assigns each to a variable, performs a mathematical operation on these variables, and returns the result. Then print this result using `console.log()`. For example:
         ```javascript
-        function addNumbers(num1, num2) {
+        const addNumbers = (num1, num2) =>{
           let number1 = num1;
           let number2 = num2;
           return number1 + number2;

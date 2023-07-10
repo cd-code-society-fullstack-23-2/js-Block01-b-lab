@@ -28,7 +28,7 @@
 3. **Create a function that returns a number:**
     - Write a function that returns a number, and log this to the console. For example:
         ```javascript
-        function getNumber() {
+        const getNumber = () => {
           return 5;
         }
 
@@ -39,7 +39,7 @@
 4. **Create a function that returns the result of a numeric expression:**
     - Write a function that returns the result of a numeric expression, and log this to the console. For example:
         ```javascript
-        function addNumbers() {
+        const addNumbers = () =>{
           return 5 + 3;
         }
 
@@ -50,7 +50,7 @@
 5. **Challenge Goal:**
     - Now for the challenge. Write a function that takes two numbers as parameters, performs a mathematical operation on them, and returns the result. Then print this result using `console.log()`. For example:
         ```javascript
-        function multiplyNumbers(num1, num2) {
+        const multiplyNumbers = (num1, num2) =>{
           return num1 * num2;
         }
 

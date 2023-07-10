@@ -23,7 +23,7 @@
 - Print each number to the console using `console.log()`. For example:
 
 ```javascript
-function printNumbers(limit) {
+const printNumbers = (limit) => {
   let response = "";
   for (let i = 1; i <= limit; i++) {
     response +=i;
@@ -41,7 +41,7 @@ function printNumbers(limit) {
 - After the loop, return the calculated `sum`. For example:
     
 ```javascript
-function calculateSum(limit) {
+const calculateSum = (limit) => {
   let sum = 0;
   for (let i = 1; i <= limit; i++) {
     sum += i;
@@ -58,7 +58,7 @@ function calculateSum(limit) {
 - If the number is even, print it to the console using `console.log()`. For example:
 
 ```javascript
-function printEvenNumbers(limit) {
+const printEvenNumbers = (limit) =>{
 	let response = "";
   for (let i = 1; i <= limit; i++) {
     if (i % 2 === 0) {
@@ -77,7 +77,7 @@ function printEvenNumbers(limit) {
 - Print each element to the console using `console.log()`. For example:
 
 ```javascript
-function printArrayReversed(arr) {
+const printArrayReversed = (arr) => {
   let response = "";
   for (let i = arr.length - 1; i >= 0; i--) {
     console.log(arr[i]);

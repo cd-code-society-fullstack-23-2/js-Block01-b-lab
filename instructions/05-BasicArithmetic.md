@@ -15,19 +15,19 @@
     - In the newly created file, write functions for addition, subtraction, multiplication, and division. Each function will take two numbers as parameters, perform the respective operation, and return the result.
         For example:
         ```javascript
-        function addNumbers(num1, num2) {
+        const addNumbers = (num1, num2) => {
           return num1 + num2;
         }
 
-        function subtractNumbers(num1, num2) {
+        const subtractNumbers = (num1, num2) => {
           return num1 - num2;
         }
 
-        function multiplyNumbers(num1, num2) {
+        const multiplyNumbers = (num1, num2) => {
           return num1 * num2;
         }
 
-        function divideNumbers(num1, num2) {
+        const divideNumbers = (num1, num2) =>{
           if (num2 === 0) {
             return 'Error: Division by zero is not allowed.';
           }

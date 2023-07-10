@@ -14,7 +14,7 @@
 2. **Create a function that uses string concatenation:**
     - In the newly created file, write a function that declares two string variables, concatenates them, and then returns the result. For example:
         ```javascript
-        function greetPerson() {
+        const greetPerson = () =>{
           let greeting = "Hello,";
           let name = " World!";
           return greeting + name;
@@ -29,7 +29,7 @@
 3. **Challenge Goal:**
     - Now for the challenge. Write a function that takes in two parameters, both strings, concatenates them with a space in between, and returns the result. Then print this result using `console.log()`. For example:
         ```javascript
-        function createSentence(word1, word2) {
+        const createSentence = (word1, word2) => {
           return word1 + " " + word2;
         }
 

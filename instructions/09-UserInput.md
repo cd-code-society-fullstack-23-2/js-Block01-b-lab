@@ -10,7 +10,6 @@
 
 1. **Create a JavaScript file:**
 
-   - Open Visual Studio Code.
    - Create a new file `src/userInputFunctions.js`.
 
 2. **Define functions to read user input:**
@@ -25,7 +24,7 @@
       output: process.stdout
     });
 
-    function askName() {
+    const askName = () => {
       return new Promise((resolve) => {
         rl.question("What is your name? ", function(name) {
           resolve(name);
@@ -33,15 +32,15 @@
       });
     }
     
-     function askAge() {
+     const askAge = () => {
        // TODO: Implement function
      }
 
-     function collectUserInformation() {
+     const collectUserInformation = () => {
        // TODO: Implement function
      }
 
-     function displayGreeting(user) {
+     const displayGreeting = (user) =>{
        // TODO: Implement function
      }
      ```

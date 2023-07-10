@@ -16,7 +16,7 @@
    Write a function called `createMessage` that takes three parameters: `name`, `age`, and `city`. The function should use these parameters to construct a message and return it. For example:
 
    ```javascript
-   function createMessage(name, age, city) {
+   const createMessage = (name, age, city) => {
      // Construct the message using the parameters
      // Return the constructed message
    }
