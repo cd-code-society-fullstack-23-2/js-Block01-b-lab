@@ -51,6 +51,11 @@ No greeting displayed.
 
 Follow these steps to complete the exercise:
 
+1. **Create a JavaScript file:**
+
+   - Open Visual Studio Code.
+   - Create a new file `src/userInputFunctions.js`.
+
 1. Use JavaScript to obtain input from the user.
 2. Create a conditional statement to check if the user's name is "Alisha" or "Jamal".
 3. If the user's name is "Alisha" or "Jamal", display the greeting with their name.

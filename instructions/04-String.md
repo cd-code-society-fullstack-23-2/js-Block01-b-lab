@@ -9,9 +9,7 @@
 **Instructions:**
 
 1. **Create a JavaScript file:**
-    - Open Visual Studio Code.
-    - Create a new file by clicking on "File" > "New File" or using the shortcut `Ctrl + N`.
-    - Save this file with a `.js` extension by clicking on "File" > "Save As" or using the shortcut `Ctrl + S`. Choose a directory for your JavaScript labs. You might name the file `stringConcatenation.js`.
+    - Create a new file `src/stringConcatenation.js`.
 
 2. **Create a function that uses string concatenation:**
     - In the newly created file, write a function that declares two string variables, concatenates them, and then returns the result. For example:

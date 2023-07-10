@@ -8,6 +8,9 @@
 
 **Instructions:**
 
+1. **Create a JavaScript file:**
+    - Create a new file `src/moreParameters.js`.
+
 1. **Create a function with multiple parameters:**
 
    Write a function called `createMessage` that takes three parameters: `name`, `age`, and `city`. The function should use these parameters to construct a message and return it. For example:

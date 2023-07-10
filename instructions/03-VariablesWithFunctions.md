@@ -9,9 +9,7 @@
 **Instructions:**
 
 1. **Create a JavaScript file:**
-    - Open Visual Studio Code.
-    - Create a new file by clicking on "File" > "New File" or using the shortcut `Ctrl + N`.
-    - Save this file with a `.js` extension by clicking on "File" > "Save As" or using the shortcut `Ctrl + S`. Choose a directory for your JavaScript labs. You might name the file `variablesAndFunctions.js`.
+    - Create a new file `src/variablesAndFunctions.js`.
 
 2. **Create a function that uses variables:**
     - In the newly created file, write a function that declares a variable, assigns a string value to it, and then returns that variable. For example:

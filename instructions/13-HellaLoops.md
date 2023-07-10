@@ -10,6 +10,10 @@ In this exercise, you will be working with the `NumberUtilities` class, which co
 
 To get started with the exercise, follow these steps:
 
+1. **Create a JavaScript file:**
+
+- Create a new file `src/hellaLoops.js`.
+
 1. **Setup:** Ensure that you have a code editor installed on your computer. If you don't have one, you can use online editors like Replit or Glitch.
 
 2. **Clone the Repository:** If the exercise materials are provided in a repository, clone the repository to your local machine. If not, create a new file in your code editor and save it with a `.js` extension.
