@@ -54,7 +54,7 @@ Follow these steps to complete the exercise:
 1. **Create a JavaScript file:**
 
    - Open Visual Studio Code.
-   - Create a new file `src/userInputFunctions.js`.
+   - Create a new file `src/alishaAndJamal.js`.
 
 1. Use JavaScript to obtain input from the user.
 2. Create a conditional statement to check if the user's name is "Alisha" or "Jamal".
